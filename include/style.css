@@ -100,16 +100,20 @@ body {
 }
 
 .product-img {
-  height: 13rem;
+  height: 9rem;
+  padding: 2rem;
   border: 4px solid black;
   overflow: hidden;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .product-img img {
-  padding: 2rem;
   display: block;
-  max-width: auto;
-  height: 9rem;
+  max-width: 8em;
+  height: auto;
   margin: 0 auto;
 }
 .product p {
@@ -122,6 +126,7 @@ body {
 .details {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .details div {
